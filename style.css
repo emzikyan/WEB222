@@ -1,0 +1,398 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url(./wp1936496.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+ }
+ 
+ nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px;
+ }
+
+ nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em; 
+  transition: .5s;
+  margin-left: 20px;
+  padding: 6px 15px;
+  font-weight: 600;
+ }
+
+ .navbar a:hover,
+ .navbar a.active{
+  color: darkgreen;
+ }
+
+.navbar a span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 30px;
+  transform: scale(0);
+  transition: .5s;
+  z-index: -1;
+  
+}
+
+.navbar a:hover span,
+.navbar a.active span{
+transform: scale(1)
+}
+
+.info{
+position:relative;
+display:contents;
+justify-content: center;
+height: 20vh;
+color: white;
+}
+
+.info #head{
+text-align: center;
+color: green;
+margin-top: 20px;
+}
+
+.info #head3{
+text-align: center;
+color:aqua;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.info #home{
+color:red;
+margin-right: 5px;
+}
+
+.info #history{
+color:yellow;
+padding-left: 15px;
+margin-right: 5px;
+}
+
+.info #library{
+color:moccasin;
+padding-left: 15px;
+margin-right: 5px;
+}
+
+.info #reviews{
+color:yellowgreen;
+padding-left: 15px;
+margin-right: 5px;
+}
+
+.info p {
+text-align: justify;
+margin-top: 20px;
+}
+
+.info #p1{
+position: relative;
+display: flex;
+padding: 10px 100px;
+}
+
+.info #p2{
+position: relative;
+display: flex;
+padding: 10px 100px;
+color:lightblue;
+}
+
+
+
+
+.img{
+max-width: 1000px;
+margin: auto;
+overflow: auto;
+}
+
+.img1{
+margin: 5px;
+float: left;
+width: 350px;
+padding-left: 40px;
+}
+
+.img1 img{
+width: 100%;
+height: auto;
+}
+
+h3 {
+text-align: center;
+color: aqua;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+ nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px;
+ }
+
+ nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em; 
+  transition: .5s;
+  margin-left: 20px;
+  padding: 6px 15px;
+  font-weight: 600;
+ }
+
+ .navbar a:hover,
+ .navbar a.active{
+  color: darkgreen;
+
+ }
+
+ .navbar a span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 30px;
+  transform: scale(0);
+  transition: .5s;
+  z-index: -1;
+  
+}
+
+.navbar a:hover span,
+.navbar a.active span{
+transform: scale(1)
+}
+
+.history{
+position:relative;
+display:contents;
+justify-content: center;
+height: 20vh;
+color: white;
+}
+
+.history #title{
+text-align: center;
+padding-top: 20px;
+}
+
+.history p {
+text-align: justify;
+}
+
+.history #paragr1{
+position: relative;
+display:flex;
+padding: 10px 100px;
+}
+
+.rules #title{
+text-align: center;
+color: white;
+}
+
+.rules{
+position:relative;
+display:contents;
+justify-content: center;
+height: 20vh;
+color: white;
+}
+.rules ol{
+position: relative;
+display:block;
+padding: 10px 100px;
+}
+
+.tips #title{
+text-align: center;
+color: white;
+}
+
+.tips ol{
+position: relative;
+display:block;
+padding: 10px 100px;
+color: white;
+}
+
+ nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px;
+ }
+
+ nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em; 
+  transition: .5s;
+  margin-left: 20px;
+  padding: 6px 15px;
+  font-weight: 600;
+ }
+
+ .navbar a:hover,
+ .navbar a.active{
+  color: darkgreen;
+
+ }
+
+ .navbar a span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 30px;
+  transform: scale(0);
+  transition: .5s;
+  z-index: -1;
+  
+}
+
+.navbar a:hover span,
+.navbar a.active span{
+transform: scale(1)
+}
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color:beige;
+  box-shadow: 0px 0px 10px #888888;
+  margin: 10px;
+  margin-top: 150px;
+ 
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 19px;
+  text-align: center;
+}
+
+
+.rating {
+  font-size: 24px;
+}
+
+.star {
+  color: gold;
+}
+
+.star.empty {
+  color: gray;
+}
+
+#rev{
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+
+h4{
+  color: white;
+  text-align: center;
+  margin: 20px 20px;
+
+}
+
+.new .box{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 70vh;
+ min-height: 20vh;
+ width: auto;
+ padding: 1rem;
+ border-radius: .5rem;
+ border: none;
+ resize: none;
+}
+
+.btn{
+  display: flex;
+  grid-gap: .5rem;
+  align-items: center;
+  margin-left: 87vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  border-radius: .5rem;
+  transition: .5s;
+}
+
+.btn .btn-clear{
+  width: 10%;
+  height: 10%;
+}
+.btn .btn-submit{
+  width: 10%;
+  height: 10%;
+}
+
+.btn .btn-clear:hover{
+  color: white;
+  background-color: red;
+ }
+
+.btn .btn-submit:hover{
+ color: white;
+ background-color: green;
+}
+
+.info #p1{
+  display: block;
+  margin-bottom: 20px;
+
+}

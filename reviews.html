@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home <span></span></a></li>
+        <li><a href="./info.html">History <span></span></a></li>
+        <li><a href="about.html">About <span></span></a></li>
+        <li><a href="./reviews.html" class="active">Reviews <span></span></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <h2 id="rev">Reviews</h2>
+    <div class="container"></div>
+
+  <div class="new">
+    <h4>Please add a Review</h4>
+    <form action="#">
+      <div class="rating">
+        <input type="number" name="rating" hidden>
+        <i class="bx bx-star"></i>
+        <i class="bx bx-star"></i>
+        <i class="bx bx-star"></i>
+        <i class="bx bx-star"></i>
+        <i class="bx bx-star"></i>
+      </div>
+      
+     
+      
+   
+      <textarea name="opinion" cols="50" rows="5" placeholder="Review" class="box"></textarea>
+
+      <div class="btn">
+        <button type="submit" class="btn-submit">Submit</button>
+        <button type="clear" class="btn-clear">Clear</button>
+      </div>
+    </form>
+
+  </div>
+    <script src="./JavaScript/data.js"></script>
+</body>
+</html>
